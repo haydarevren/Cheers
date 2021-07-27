@@ -13,6 +13,14 @@ Data:
 
 Model:
 
+| Embedding | Model | Train Accuracy(Top-1) | Test Accuracy(Top-1) | Train Accuracy(Top-5) | Test Accuracy(Top-5) |
+| --- | --- | --- | --- | --- | --- |
+| TfidfVectorizer | Logistic | 17.1% | 16.9% | 34.9% | 34.5% |
+| USE | Logistic | 31.4% | 29.4% | 54.5% | 54.4% |
+| USE | MultinomialNB | 3.9% | 3.8% | 11.5% | 11.4% |
+| USE | LinearSVC | 29.2% | 25.9% | 51.3% | 50.1% |
+| USE | XGBoost | 42.5% | 30.4% | 72.1% | 55.9% |
+| USE | DNN | 36.5% | 34.4% | 59.9% | 59.2% |
 
 The different models and their accuracies shown below:
 
