@@ -22,5 +22,4 @@ Model:
 | USE | XGBoost | 42.5% | 30.4% | 72.1% | 55.9% |
 | USE | DNN | 36.5% | 34.4% | 59.9% | 59.2% |
 
-The different models and their accuracies shown below:
 
