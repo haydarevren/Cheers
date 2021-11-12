@@ -4,15 +4,25 @@
 
 You are not alone if you have ever found yourself staring at a wall of beers at your local supermarket, scouring the Internet on your phone, looking up obscure beer names for reviews. You have come to the right place if you are always looking for something new to try, but also don't want to be disappointed that you are making a good choice. Although Cheers allows you to find a beer that suits your taste with the touch of a few buttons, the underlying methods can also improve business decisions. For example, a liquor shop wants to know similar beers to its top-selling ones? Cheers can help solve your problem.
 
+Using the text entry that describes flavors/characteristic you are looking for in the moment, cheers provides:
 
-The deliverable of this project will be a web app. Using a dataset of reviews and descriptions from popular beer websites, the engine provides a list of beers using the maximum number of keywords specified by the user.  In just a single result page, each beer is listed along with its description, average rating, and a link that showing the list of places you can find it near your location.
+  - 5 recommended beers,
+  - word cloud of each recommended beer,
+  - polar bar chart of the user's taste profile in terms of beer styles.
 
 Data:
 
-  1. Beeradvocate.com: For each beer, its reviews, ratings, state,	country, and	style are scraped from beeradvocate.com.
-  2. Ratebeer.com, Untappd.com, Beerconnoisseur.com, Influenster.com: Will be added after finizlizing the model.
-
+  Beeradvocate.com and Ratebeer.com: For each beer, its reviews, description, and	style are scraped using BeautifulSoup. (2m+ reviews and descriptions)
+ 
 Model:
+
+Natural language processing, deep learning, and classification uncovers relationships between these descriptive sentences and beers. This part involves two main sections.
+
+1) Transforming unstructured text data to high dimensional vectors: With sentence embedding the context of the whole sentence is captured in a vector. 
+
+2) Deep learning fro classification
+
+
 
 | Embedding | Model | Train Accuracy(Top-1) | Test Accuracy(Top-1) | Train Accuracy(Top-5) | Test Accuracy(Top-5) |
 | --- | --- | --- | --- | --- | --- |
