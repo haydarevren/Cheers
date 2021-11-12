@@ -1,8 +1,9 @@
 # Cheers - NLP beer recommendation engine
 
-The number of different beers produced in the United States has increased from 10,000 to nearly 100,000 in the last decade. Several issues arise as a result of this. One, a beer's style, such as IPA, is meaningless because there are over 50k of them, each with its own distinct flavor profile. Second, how can one choose between a wall of beer in a liquor store or a tap list with hundreds of beers on tap?
+## An interactive web app that allows users to type the flavors/characteristics they find appealing and shows 5 recommended beers with word clouds, user's taste profile in terms of beer styles in a polar bar chart.
 
-Cheers is a beer recommendation engine to addresses both of these concerns by allowing users to search for beers based on how we actually choose beers: by describing the flavors we desire or beers in similar taste.
+You are not alone if you have ever found yourself staring at a wall of beers at your local supermarket, scouring the Internet on your phone, looking up obscure beer names for reviews. You have come to the right place if you are always looking for something new to try, but also don't want to be disappointed that you are making a good choice. Although Cheers allows you to find a beer that suits your taste with the touch of a few buttons, the underlying methods can also improve business decisions. For example, a liquor shop wants to know similar beers to its top-selling ones? Cheers can help solve your problem.
+
 
 The deliverable of this project will be a web app. Using a dataset of reviews and descriptions from popular beer websites, the engine provides a list of beers using the maximum number of keywords specified by the user.  In just a single result page, each beer is listed along with its description, average rating, and a link that showing the list of places you can find it near your location.
 
@@ -22,4 +23,4 @@ Model:
 | USE | XGBoost | 42.5% | 30.4% | 72.1% | 55.9% |
 | USE | DNN | 36.5% | 34.4% | 59.9% | 59.2% |
 
-
+This project was developped during my fellowship at The Data Incubator.
