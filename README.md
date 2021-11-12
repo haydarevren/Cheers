@@ -1,6 +1,6 @@
 # Cheers - NLP beer recommendation engine
 
-## An interactive web app that allows users to type the flavors/characteristics they find appealing and shows 5 recommended beers and user's taste profile.
+## An interactive web app that allows users to type the flavors/characteristics they find appealing and shows five recommended beers and the user's taste profile.
 
 You are not alone if you have ever found yourself staring at a wall of beers at your local supermarket, scouring the Internet on your phone, looking up obscure beer names for reviews. You have come to the right place if you are always looking for something new to try, but also don't want to be disappointed that you are making a good choice. Although Cheers allows you to find a beer that suits your taste with the touch of a few buttons, the underlying methods can also improve business decisions. For example, a liquor shop wants to know similar beers to its top-selling ones? Cheers can help solve your problem.
 
