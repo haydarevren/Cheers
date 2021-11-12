@@ -1,4 +1,4 @@
-# Cheers - beer recommendation engine
+# Cheers - NLP beer recommendation engine
 
 The number of different beers produced in the United States has increased from 10,000 to nearly 100,000 in the last decade. Several issues arise as a result of this. One, a beer's style, such as IPA, is meaningless because there are over 50k of them, each with its own distinct flavor profile. Second, how can one choose between a wall of beer in a liquor store or a tap list with hundreds of beers on tap?
 
