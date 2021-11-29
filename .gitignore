@@ -1,0 +1,11 @@
+.env
+__pycache__
+/data/reviews_clean.csv
+/data/beers_clean.csv
+/data/beers.csv
+/data/reviews.csv
+/data/beeradvocate.csv
+/data/beeradvocate.txt
+/venv
+/notebooks/.ipynb_checkpoints
+/notebooks/nx.html
