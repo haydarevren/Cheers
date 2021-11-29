@@ -46,7 +46,7 @@ Using the text entry that describes flavors/characteristic you are looking for i
   - The third model is to uncover the semantic similarity between beer reviews. I used cosine similarities and filtered the closest 2 beers
   - Main tools: TensorFlow's Universal Sentence Embedding, TensorFlow, Scikit-Learn, NLP feature-extraction tools.
 
-  See the 'EDA and Model Training' notebook for details.  
+  See the https://github.com/haydarevren/Cheers/blob/main/notebooks/EDA%20and%20Model%20Training.ipynb notebook for details.  
 
 ## Visualization of the results 
 
