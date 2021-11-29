@@ -10,7 +10,7 @@ This capstone deliverable consists of this github repo, and a Flask app deployed
 
 Using the text entry that describes flavors/characteristic you are looking for in the moment, cheers provides:
 
-  - 3 recommended beers with their Word Cloud built out of TF-IDF and their descriptions,
+  - 3 recommended beers and their Word Cloud built out of TF-IDF and their descriptions,
   - recommended beer styles shown in a polar bar chart,
   - interactive network vizuliazation, a the web-network of different beer and their relationships to each other. 
 
