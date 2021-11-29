@@ -22,7 +22,7 @@ Using the text entry that describes flavors/characteristic you are looking for i
   - The final dataset consists of ~1.2M reviews.
   - Main tools: Pandas, Beatifulsoup, Requests, Seaborn, NLP features (nltk, spacy).
 
-## Model
+## Models
 
   Natural language processing, transfer learning, deep learning, and classification uncovers relationships between these descriptive sentences and beers. This part involves two main sections.
 
