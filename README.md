@@ -1,4 +1,5 @@
 # Cheers - NLP beer recommendation engine
+![cheers_animation2](https://user-images.githubusercontent.com/79766032/143927360-fc083dc2-1fe9-4b5d-93fc-00cffe526c9e.gif)
 
 ## An interactive web app that allows users to type the flavors/characteristics they find appealing and shows five recommended beers and the user's taste profile.
 
