@@ -5,7 +5,7 @@
 
 This capstone deliverable consists of this github repo, and a Flask app deployed with heroku: https://cheers-capstone.herokuapp.com/ (app is down right now)
 
-## Project description
+## Inspiration
   You are not alone if you have ever found yourself staring at a wall of beers at your local supermarket, scouring the Internet on your phone, looking up obscure beer names for reviews. You have come to the right place if you are always looking for something new to try, but also don't want to be disappointed that you are making a good choice. Although Cheers allows you to find a beer that suits your taste with the touch of a few buttons, the underlying methods can also improve business decisions. For example, a liquor shop wants to know similar beers to its top-selling ones? Cheers can help solve your problem.
 
 Using the text entry that describes flavors/characteristic you are looking for in the moment, cheers provides:
@@ -53,5 +53,19 @@ Using the text entry that describes flavors/characteristic you are looking for i
   - Using wordcloud and matplotlib, I showed the recommended beers in the shape of wordcloud and user's beer taste in a polar chart.
   - Using pyvis, I created an interactive network to show the relationsship between different beers.
   - The explanatory data analysis is in 'EDA and Model Training' notebook.
+
+## Installation and Usage
+
+  - Git clone the existing template repository.
+  - Procfile, requirements.txt, conda-requirements.txt, and runtime.txt contain some default settings.
+  - Install Flask
+    ```$ pip install flask```
+  - Install virtualenv to manage dependencies :
+    ```$ pip install virtualenv ```
+    ```pip install -r requirements.txt ```
+  - To launch the app:
+    ``` python app.py ```
+  - Once the Flask app is running, navigate to the `localhost` link provided:
+    <code> * Running on <b>http://127.0.0.1:5000/</b> (Press CTRL+C to quit)</code>
 
 This project was developped during my fellowship at The Data Incubator.
